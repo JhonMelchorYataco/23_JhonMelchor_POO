@@ -1,0 +1,15 @@
+// Crear instancias de la clase Estudiante_23
+        estudiante_23 estudiante1 = new estudiante_35("jhon", 20, 85.5);
+        estudiante_23 estudiante2 = new estudiante_35("María", 22, 90.0);
+
+        // Llamar a métodos y mostrar información
+        estudiante1.estudiar();
+        estudiante2.estudiar("Matemáticas");
+
+        // Mostrar calificaciones
+        System.out.println("Calificación de " + estudiante1.getNombre() + ": " + estudiante1.getCalificacion());
+        System.out.println("Calificación de " + estudiante2.getNombre() + ": " + estudiante2.getCalificacion());
+    }
+
+        
+}

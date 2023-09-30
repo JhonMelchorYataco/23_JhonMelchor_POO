@@ -1,0 +1,44 @@
+private double operando1;
+    private double operando2;
+
+    // Constructor
+    public calculadora_35(double operando1, double operando2) {
+        this.operando1 = operando1;
+        this.operando2 = operando2;
+    }
+
+    // Método para sumar dos números
+    public double sumar() {
+        return operando1 + operando2;
+    }
+
+    // Método para restar dos números
+    public double restar() {
+        return operando1 - operando2;
+    }
+
+    // Método para multiplicar dos números
+    public double multiplicar() {
+        return operando1 * operando2;
+    }
+
+    // Método para dividir dos números
+    public double dividir() {
+        if (operando2 != 0) {
+            return operando1 / operando2;
+        } else {
+            System.out.println("Error: División por cero.");
+            return Double.NaN; // Retorna NaN (Not-a-Number) en caso de división por cero.
+        }
+    }
+
+    // Sobrecarga de método para sumar tres números
+    public double sumar(double operando3) {
+        return operando1 + operando2 + operando3;
+    }
+
+    // Sobrecarga de método para realizar una potencia
+    public double potencia(int exponente) {
+        return Math.pow(operando1, exponente);
+    }
+}
