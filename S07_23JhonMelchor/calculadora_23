@@ -1,0 +1,9 @@
+
+// Clase Calculadora_23
+class Calculadora_23 {
+
+    public int sumar(int a, int b) {
+        return a + b;
+    }
+}
+
