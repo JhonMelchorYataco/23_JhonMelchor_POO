@@ -1,0 +1,4 @@
+
+// Persona2: Métodos con valores de retorno
+class Persona2 {
+    private String nombre =

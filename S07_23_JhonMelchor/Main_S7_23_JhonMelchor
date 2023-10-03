@@ -1,0 +1,24 @@
+public class Main_S7_23_JhonMelchor {
+
+    public static void main(String[] args) {
+        // Crear instancias de personas
+        Persona1 personaConParametros = new Persona1();
+        Persona2 personaConRetorno = new Persona2();
+
+        // Utilizar métodos con parámetros
+        personaConParametros.establecerInformacion("Juan", 25);
+
+        // Obtener y mostrar información utilizando métodos con valores de retorno
+        String nombre = personaConRetorno.obtenerNombre();
+        int edad = personaConRetorno.obtenerEdad();
+
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Edad: " + edad);
+    }
+}
+
+
+
+// Persona2: Métodos con valores de retorno
+class Persona2 {
+    private String nombre =

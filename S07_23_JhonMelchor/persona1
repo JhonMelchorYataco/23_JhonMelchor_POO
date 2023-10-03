@@ -1,0 +1,12 @@
+// Persona1: Métodos con parámetros
+class Persona1 {
+    private String nombre;
+    private int edad;
+
+    // Método para establecer información con parámetros
+    public void establecerInformacion(String nombre, int edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+        System.out.println("Información establecida: " + this.nombre + ", " + this.edad + " años");
+    }
+}
